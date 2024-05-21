@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.content
+{
+    background-image: url(bg-2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.text
+{
+    padding-left: 550px;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+h1
+{
+    font-size: 60px;
+    padding-left: 100px;
+}
+button
+{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+}
+button:hover
+{
+    background-color: blue;
+    color: black;
+}
+.card
+{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 20px;
+    gap: 3.5rem;
+}
+.location
+{
+   
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 25px;
+    color:rgb(19, 13, 9);
+}
+#contact
+{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 30px;
+    color:rgb(19, 13, 9);
+}
+</style>
+<body>
+    <div class="content">
+      <div class="text">
+        <h1>About me</h1>
+        <p>Hey there! I'm Prashant, a passionate web developer with 6 month 
+            of experience crafting elegant and functional websites. My journey into the world of coding started 
+            with a fascination for how websites work, and it has since evolved into a full-fledged career.
+            With a solid foundation in HTML, CSS, and JavaScript, I specialize in bringing designs to life 
+            through clean, efficient code. I love collaborating with designers to create seamless user experiences 
+            that not only look great but also function flawlessly across devices.</p>
+            <button>Contact Us</button>
+      </div>
+      <div class="card">
+        <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+              Kosi Kalan Chhata Mathura U.P 281403  
+        </div>
+      <div id="contact">
+        <i class="fa-solid fa-phone"></i> +91 7015608271<br>
+        <i class="fa-solid fa-envelope"></i>Pr317590@gmail.com
+      </div>
+     </div>
+    </div>
+</body>
+</html>
